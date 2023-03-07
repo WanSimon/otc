@@ -1482,3 +1482,14 @@
 [T] 15:26:22.964(000000000000492C):[MySQL]Query success,used time:6 ms,sql="SELECT * FROM xy_notice WHERE merchant_id IN ('290abca1-383b-11ea-96fd-0242ac120005') AND curdate() >= begin_time AND curdate() <= end_time AND place_list like '%0%' AND status = 1 AND is_deleted=0;"
 [T] 15:26:22.965(000000000000492C):getConnection release,getIndex=627
 [T] 15:26:22.965(000000000000492C):handle request [url:/notice/display,method:get] success,response=[]
+[I] 15:36:23.163(000000000000492C):rcv method:GET,url:/notice/display
+[T] 15:36:23.170(000000000000492C):[MP1]getConnection success,getIndex=628
+[T] 15:36:23.173(000000000000492C):[MySQL]Query success,used time:3 ms,sql="SELECT getChildList('290abca1-383b-11ea-96fd-0242ac120005') AS merchantList"
+[T] 15:36:23.174(000000000000492C):getConnection release,getIndex=628
+[T] 15:36:23.182(000000000000492C):[MP1]getConnection success,getIndex=629
+[T] 15:36:23.184(000000000000492C):[MySQL]Query success,used time:2 ms,sql="SELECT getParentList('290abca1-383b-11ea-96fd-0242ac120005') AS merchantList"
+[T] 15:36:23.185(000000000000492C):getConnection release,getIndex=629
+[T] 15:36:23.191(000000000000492C):[MP1]getConnection success,getIndex=630
+[T] 15:36:23.193(000000000000492C):[MySQL]Query success,used time:2 ms,sql="SELECT * FROM xy_notice WHERE merchant_id IN ('290abca1-383b-11ea-96fd-0242ac120005') AND curdate() >= begin_time AND curdate() <= end_time AND place_list like '%0%' AND status = 1 AND is_deleted=0;"
+[T] 15:36:23.193(000000000000492C):getConnection release,getIndex=630
+[T] 15:36:23.194(000000000000492C):handle request [url:/notice/display,method:get] success,response=[]

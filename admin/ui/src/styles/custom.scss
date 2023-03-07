@@ -1,0 +1,28 @@
+path {
+  fill: inherit !important;
+}
+//svg图标大小
+.svg-style {
+  font-size: 14px;
+}
+//svg禁用
+.icon-ban {
+  color: #F56C6C;
+}
+//警告
+.icon-warning {
+  color: #E6A23C;
+}
+//勾 （启用）
+.icon-hook-on {
+  color: #67C23A;
+}
+//勾 （离线）
+.icon-hook-off {
+  color: #909399;
+}
+
+//输入框宽度
+.el-input-width{
+  width:55%;
+}
